@@ -1,9 +1,10 @@
 public class Calculate{
+
 	public static void main(String[] args) {
-		System.out.println("Ahmet");
-		/*int first = Integer.indexOf(args[0]);
-		int second = Integer.indexOf(args[1]);
+		//System.out.println("Ahmet");
+		int first = Integer.valueOf(args[0]);
+		int second = Integer.valueOf(args[1]);
 		int summa = first + second;
-		Syste.out.println("Summa: " + summa);*/
+		System.out.println("Summa: " + summa);
 	}
 }
